@@ -53,8 +53,8 @@ li.nav {
 
 .nav ul {
     display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
+    justify-content: center;
+    gap: 100px;
 }
 
 a{ 

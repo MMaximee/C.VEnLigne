@@ -42,7 +42,7 @@ header.header{
 nav.nav{
     background-color: #9DB5B2;
     padding: 50px;
-    margin: 0 25px;
+    align-items: center;
 
 }
 li.nav {
@@ -52,8 +52,8 @@ li.nav {
 
 .nav ul {
     display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
+    justify-content: center;
+    gap: 100px;
 }
 
 a{ 
@@ -61,6 +61,7 @@ a{
     color: #DAF0EE;
     font-family:  'Jost', sans-serif;
     border-bottom: 2px solid #DAF0EE;
+    align-items: center;
     font-weight: bold;
 }
 
